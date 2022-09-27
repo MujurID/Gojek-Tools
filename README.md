@@ -13,19 +13,29 @@ Script Bot Registrasi Gojek, Pasang PIN dan Cek Voucher menggunakan Python yang 
 - [x] OTP Web / Manual
 - [x] Customize Data
 - [x] Checker Voucher (BETA)
+- [x] Create Akun Automatic
+- [x] Tools 4 Versi
+- [x] Claim Voucher Gofood Automatic
 
 
-## ✨ Install Script Bot GoJek
+## ✨ Install Script
 
 ### 🎲 Bahasa yang Dipakai
 <p>
-    <a href="https://github.com/tahaluindo"><img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white"></a>
+    <a href="https://github.com/tahaluindo"><img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white"></a> Dan
+<a href="https://github.com/tahaluindo"><img alt="Python" src="https://img.shields.io/badge/PHP%20-%2314354C.svg?logo=PHP&logoColor=white"></a>
+</p>
 
 
 ### ⚙️ Instalasi Termux - Android
 
+Download Termux Disini https://f-droid.org/en/packages/com.termux/
+
 ```
 pkg update && pkg upgrade
+```
+```
+pkg install php
 ```
 ```
 pkg install python
@@ -49,9 +59,26 @@ pip install requests
 pip install keyboard
 ```
 ```
-python run.py
+python main.py
 ```
 
+###  🌷 Installer Version PHP Script
+
+```
+cd Gofood-Tools
+```
+
+```
+cd PHP
+```
+
+```
+php run.php
+```
+
+### Keterangan PHP
+
+<center>Opsinya Harus Login Dulu</center>
 
 ## ⚠️ WARNING
 Check Voucher terkadang Error, atau terdeteksi 0 voucher 
